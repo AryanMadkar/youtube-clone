@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    transition: all 0.3s ease-in;
+    font-family: 'poppins', sans-serif;
+}
+
+body {
+  background-color: black;
+  color: #ffffff;
+}
+
+/* Header */
+header {
+  background-color: black;
+  color: #ffffff;
+}
+
+/* Links */
+a {
+  color: #ffffff;
+}
+
+/* Buttons */
+button {
+  background-color: #444444;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+}
+
+/* Input fields */
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  background-color: #333333;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+}
+
+/* Footer */
+footer {
+  background-color: #333333;
+  color: #ffffff;
+}
+.light {
+  background-color: #ffffff;
+  color: #333333;
+}
+.light header {
+  background-color: #f2f2f2;
+  color: #333333;
+}
+
+.light button {
+  background-color: #007bff; /* blue */
+  color: #ffffff;
+  border: 1px solid #007bff; /* blue */
+}
+
+.light footer {
+  background-color: #f2f2f2;
+  color: #333333;
+}
+
+.light a {
+  color: #007bff; /* blue */
+}

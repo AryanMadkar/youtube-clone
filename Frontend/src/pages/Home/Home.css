@@ -1,0 +1,14 @@
+.container{
+    /* background-color: black; */
+    padding-left: 17%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 2%;
+    /* border: 2px solid white; */
+    
+}
+
+.large-container{
+    padding-left: 7%;
+    /* border: 2px solid red; */
+}
